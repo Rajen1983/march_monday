@@ -13,10 +13,10 @@ Answer- An array is a special variable, which can hold more than one value.
 
 Q-5--------------
 
-primitive			                   non-primitive
--------------                  ----------------
-1. String			                     1. object
-2. Number			                     2. array
+primitive................................non-primitive
+-------------......................... ----------------
+1. String.............................  1. object
+2. Number...............................2. array
 3. Bigint
 4. Boolean
 5. Undefined
