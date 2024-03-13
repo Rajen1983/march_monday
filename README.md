@@ -27,7 +27,7 @@ primitive			                   non-primitive
 Q-6-----------
 Answer- Three java script keywords they are used for variable declearation
 
-let
-var
+let<br>
+var<br>
 const
 
