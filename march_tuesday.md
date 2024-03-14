@@ -4,13 +4,13 @@ Mathematical Operator-
 Mathematical operators perform basic mathematic operations on the operands. Below we have shown all Mathematical operators with their examples.
 
 Operator-----Description------------Example<br>
-(+)---------    Add-----------------7+3=10<br>
-(–)	---------   Subtract----------	7-3=4<br>
-(*)---------    Multiply----------	7*3=21<br>
-(/)---------	Divide	----------7/3=2.34<br>
-(%)---------	Modulus---------- (Division Remainder)<br>
-(++)---------	Increment---------- (Increase answer by 1)<br>
-(– )---------	Decrement ----------(Decrease answer by 1)<br>
+(+)-------------Add-----------------7+3=10<br>
+(–)-------------Subtract------------7-3=4<br>
+(x)-------------Multiply------------7x3=21<br>
+(/)-------------Divide	------------7/3=1<br>
+(%)-------------Modulus-------------(Division Remainder)<br>
+(++)------------Increment-----------(Increase answer by 1)<br>
+(– )------------Decrement ----------(Decrease answer by 1)<br>
 
 Q-2-------------------------------------------------------
 
