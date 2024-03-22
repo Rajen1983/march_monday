@@ -258,3 +258,17 @@
 
 // console.log(day); 
 
+let data={
+    name:"sunil",
+    phone:{
+        first:9598981212,
+        last:1212121212,
+    },
+    mobile:241124,
+}
+data.school="DPS",
+data.class=10,
+data.phone=9598121200,
+data.mobile=242424
+console.log(data)
+
