@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        nav,.nav1 {
+        nav,
+        .nav1 {
             display: flex;
-            color:aliceblue;
+            color: aliceblue;
             font-size: larger;
-            gap:40px;
+            gap: 40px;
             justify-content: space-around;
             align-items: center;
         }
@@ -17,41 +19,116 @@
         nav img {
             width: 180px;
             height: auto;
-            
+
         }
-        .demo{background-color: rgb(246, 246, 14);
-        color: black;
-    border-radius: 20px;
-padding:15px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
-        body
-        {
+
+        .demo {
+            background-color: rgb(246, 246, 14);
+            color: black;
+            border-radius: 20px;
+            padding: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        body {
             /* background-color:rgba(93, 26, 236, 0.793); */
             /* background: rgb(2,0,36); */
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,81,226,1) 35%, rgba(0,212,255,1) 100%);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(134, 81, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            margin: 0;
         }
-        article{color:aliceblue;
-            font-family:  'Arial Narrow Bold', sans-serif;
+
+        article {
+            color: aliceblue;
+            font-family: 'Arial Narrow Bold', sans-serif;
             font-size: 35px;
-height: 400px;
-width: 600px;
+            height: 400px;
+            width: 600px;
             /* border: 1px solid; */
             margin-left: 200px;
             margin-top: 100px;
         }
-        article p{font-size:25px;}
+
+        article p {
+            font-size: 25px;
+        }
+
+        .secone {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .sectwo {
+            padding: 20px;
+            padding-bottom: 70px;
+        }
+
+        .sec {
+            text-align: center;
+            padding: 20px;
+            padding-top: -40px;
+            font-size: 30px;
+            color: aliceblue;
+            background-color: rgb(124, 87, 237);
+            margin: 0px;
+        }
+        .bridging{display:flex;
+        color:rgb(1, 10, 18);
+    /* height: 50px; */
+border:1px solid;
+padding:100px;
+justify-content: space-between;}
+
+.brid1{width:500px;
+border:1px solid brown;
+font-family:Arial, Helvetica, sans-serif;
+}
     </style>
 </head>
+
 <body>
     <nav>
         <img src="./dc.png" alt="Logo">
-        <div class=nav1><div>Solution</div>
-        <div>Learn</div>
-        <div>Blog</div>
-        <div class="demo">Schedule a Demo</div>
-    </div>
+        <div class=nav1>
+            <div>Solution</div>
+            <div>Learn</div>
+            <div>Blog</div>
+            <div class="demo">Schedule a Demo</div>
+        </div>
     </nav>
-    <article><h2>Process Automation Built for the Modern Workforce</h2>
-        <p>DocQ’s no code automation platform empowers you to create dynamic workflows with an infinite array of embedded business logic, in just a few minutes.</p></article>
+    <article>
+        <h2>Process Automation Built for the Modern Workforce</h2>
+        <p>DocQ’s no code automation platform empowers you to create dynamic workflows with an infinite array of
+            embedded business logic, in just a few minutes.</p>
+    </article>
+
+    <div class="sec">
+        <div class="sectwo">Companies using DocQ</div>
+        <div class="secone">
+            <div>C1ELO</div>
+            <div>AVANOS</div>
+            <div>linkedin.</div>
+            <div>GRIFOLS</div>
+            <div>reckitt</div>
+            <div>Tufts Medical Center</div>
+        </div>
+    </div>
+    </div>
+    <div class="bridging">
+        <div class="brid1">
+        <h1>Bridging process and technology</h1>
+        <p>DocQ can replicate and automate any business workflow resulting in massive efficiency gains.</p>
+        <ul>
+            <li>Adopt true end to end automation in your organization. Generate templates from existing, new or even
+                physical documents with a one-click process. Connecting them to web-forms, CRMs, ERPs, HRISs and ATSs
+                takes mere moments with DocQ’s pre-built integrations and plug-ins.</li>
+            <li>Running documents and data through user-created workflows, collecting data, obtaining approvals, maintaining audit trails and getting certificate based e-Signatures is powered by DocQ’s decision engine.
+                </li>
+            <li>Gain insights with reports to help make your business processes more efficient.</li>
+        </ul>
+    </div>
+
+        <div class="img1"><img src="./holi-holi-hai.gif" alt="photo"></div>
+    </div>
 </body>
+
 </html>
